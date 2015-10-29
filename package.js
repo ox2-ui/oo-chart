@@ -19,12 +19,8 @@ Package.onUse(function(api) {
     ]);
   // 3rd party
   api.use([
-    'lauricio:less-autoprefixer@2.5.0_3','mquandalle:jade@0.4.5', 'ox2:chartjs@1.0.2_1', 'ox2:tinycolor@1.2.1_1'
+    'lauricio:less-autoprefixer@2.5.0_3','mquandalle:jade@0.4.5', 'ox2:chartjs@1.0.2_1'
     ]);
-  // 3rd party
-  // api.addFiles('lib/chart.js', C);
-  // api.export('Chart');
-  // oo
   api.addFiles('lib/oo-chart.jade', C);
   api.addFiles('lib/oo-chart.js', C);
   api.addFiles('lib/oo-chart.less', C);
