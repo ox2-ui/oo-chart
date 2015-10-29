@@ -14,7 +14,8 @@ Package.onUse(function(api) {
   // Core
   api.use([
     'templating',
-    'ecmascript'
+    'ecmascript',
+    'underscore'
     ]);
   // 3rd party
   api.use([
