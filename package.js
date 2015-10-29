@@ -13,11 +13,12 @@ Package.onUse(function(api) {
   api.versionsFrom('1.2.0.2');
   // Core
   api.use([
-    'templating@1.1.0-rc.1'
+    'templating',
+    'ecmascript'
     ]);
   // 3rd party
   api.use([
-    'lauricio:less-autoprefixer@2.5.0_3','mquandalle:jade@0.4.1', 'ox2:chartjs@1.0.2_1'
+    'lauricio:less-autoprefixer@2.5.0_3','mquandalle:jade@0.4.5', 'ox2:chartjs@1.0.2_1'
     ]);
   // 3rd party
   // api.addFiles('lib/chart.js', C);
