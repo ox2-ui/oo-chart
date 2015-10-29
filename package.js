@@ -20,8 +20,8 @@ Package.onUse(function(api) {
     'lauricio:less-autoprefixer@2.5.0_3','mquandalle:jade@0.4.1', 'ox2:chartjs@1.0.2_1'
     ]);
   // 3rd party
-  api.addFiles('lib/chart.js', C);
-  api.export('Chart');
+  // api.addFiles('lib/chart.js', C);
+  // api.export('Chart');
   // oo
   api.addFiles('lib/oo-chart.jade', C);
   api.addFiles('lib/oo-chart.js', C);
