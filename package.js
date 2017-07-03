@@ -14,10 +14,10 @@ Npm.depends({
 });
 
 Package.onUse(function(api) {
-  api.versionsFrom('1.4.3.1');
+  api.versionsFrom('1.4.4');
   // Core
   api.use([
-    'templating@1.3.2',
+    'templating',
     'ecmascript',
     'underscore',
     'less'
